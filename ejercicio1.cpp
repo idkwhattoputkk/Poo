@@ -6,6 +6,6 @@ int main(){
     cout << "Digite el precio del producto ";
     cin >> x;
     valor = x + ( x * 0.19 );
-    cout << "el valor del producto con iva es: " << valor; 
+    cout << "el valor del producto con iva es: " << valor << endl; 
     return 0;
 }
