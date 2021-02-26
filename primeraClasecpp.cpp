@@ -2,6 +2,7 @@
 #include <cmath>
 #include <exception>
 // Clase circulo
+using namespace std;
 class Circulo{
 
     //atributos
@@ -30,10 +31,16 @@ class Rectangulo{
     void calcularPerimetro();
     void calcularArea();
 };
-struct MyException : public exception {
-   const char * what () const throw () {
-      return "no may espacio en el arreglo";
-   }
+// excepcion propia 
+class myexception: public exception{
+  virtual const char* what() const throw()
+  {
+    return "My exception happened";
+  }
+} myex;
+
+class Triangulo{
+
 };
 Rectangulo::Rectangulo(float largo, float ancho){
     this->largo = largo;
@@ -43,12 +50,12 @@ Rectangulo::Rectangulo(float largo, float ancho){
 void Rectangulo::calcularPerimetro(){
     float perimetro;
     perimetro = largo + ancho + largo + ancho;
-    std::cout << "el perimetro es: " << perimetro << std::endl;  
+    cout << "el perimetro es: " << perimetro << endl;  
 }
 void Rectangulo::calcularArea(){
     float area;
     area = largo * ancho;
-    std::cout << "el area es: " << area << std::endl;   
+    cout << "el area es: " << area << endl;   
 
 }
 Circulo::Circulo(float radio){
@@ -58,12 +65,12 @@ Circulo::Circulo(float radio){
 void Circulo::calcularArea(){
     float area;
     area = (powf(radio, 2)) * pi;
-    std::cout << "el area es: " << area << std::endl; 
+    cout << "el area es: " << area << endl; 
 }
 void Circulo::calcularPerimetro(){
     float circunferencia;
     circunferencia = 2 * pi * radio;
-    std::cout << "la circunferencia es: " << circunferencia << std::endl;
+    cout << "la circunferencia es: " << circunferencia << endl;
 }
 int main() {
 
