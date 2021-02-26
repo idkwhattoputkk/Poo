@@ -29,6 +29,13 @@ class Rectangulo{
     void calcularPerimetro();
     void calcularArea();
 };
+class myexception: public exception
+{
+  virtual const char* what() const throw()
+  {
+    return "No hay mas espacio en los arreglos";
+  }
+} myex;
 Rectangulo::Rectangulo(float largo, float ancho){
     this->largo = largo;
     this->ancho = ancho;
