@@ -40,7 +40,14 @@ class myexception: public exception{
 } myex;
 
 class Triangulo{
+    //atributos
+    private:
+    float base, altura;
 
+    //metodos
+    Triangulo(float,float);
+    void calcularArea();
+    void calcularPerimetro();
 };
 Rectangulo::Rectangulo(float largo, float ancho){
     this->largo = largo;
@@ -72,6 +79,28 @@ void Circulo::calcularPerimetro(){
     circunferencia = 2 * pi * radio;
     cout << "la circunferencia es: " << circunferencia << endl;
 }
+Triangulo::Triangulo(float base, float altura){
+    this->base = base;
+    this->altura = altura;
+}
+void Triangulo::calcularArea(){
+    float area;
+    area = (base*altura)/2;
+    cout << "el area es: " << area << endl; 
+}
+void Triangulo::calcularPerimetro(){
+    float perimetro;
+    //perimetro = ; TODO
+}
 int main() {
-
+    int option;
+    switch (option)
+    {
+    case /* constant-expression */:
+        /* code */
+        break;
+    
+    default:
+        break;
+    }
 }
