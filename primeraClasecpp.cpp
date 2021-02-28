@@ -94,6 +94,7 @@ void Triangulo::calcularPerimetro(){
 }
 int main() {
     int option;
+    cout << "" << endl;
     switch (option)
     {
     case /* constant-expression */:
