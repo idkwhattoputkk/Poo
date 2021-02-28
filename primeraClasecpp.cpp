@@ -94,11 +94,14 @@ void Triangulo::calcularPerimetro(){
 }
 int main() {
     int option;
-    cout << "" << endl;
+    cout << "Bienvenido: "
+            "¿Que figura desea crear?"
+            ""
+            "";
     switch (option)
     {
-    case /* constant-expression */:
-        /* code */
+    case 1:
+        //TODO
         break;
     
     default:
