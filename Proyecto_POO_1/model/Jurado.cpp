@@ -1,6 +1,5 @@
 #include "Jurado.h"
-#include <string>
-#include <iostream>
+
 using namespace std;
 
 //Constructors

@@ -1,7 +1,7 @@
 #ifndef JURADO_H
-#define JURADO_H 1
-#include<iostream>
-#include<string>
+#define JURADO_H 
+#include <iostream>
+#include <string>
 using namespace std;
 
 //Clase Jurado

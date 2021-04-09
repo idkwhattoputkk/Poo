@@ -1,6 +1,4 @@
 #include "Criterio.h"
-#include <string>
-#include <iostream>
 using namespace std;
 
 //Constructors

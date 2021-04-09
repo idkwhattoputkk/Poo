@@ -28,7 +28,7 @@ class Acta{
     //metodos de la clase 
     public:
         Acta();
-        Acta(int numero, string fecha, string autor, string nombre, string tipo, int periodo, string director, string codirector, string estado, double notaFinal);
+        Acta(int numero, string fecha, string autor, string nombre, string tipo, int periodo, string director, string codirector, string estado);
         int getNumero();
         void setNumero(int numero);
         string getFecha();

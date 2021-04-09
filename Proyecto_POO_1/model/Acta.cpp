@@ -1,6 +1,5 @@
 #include "Acta.h"
-#include <string>
-#include <iostream>
+
 using namespace std;
 
 // constructor por defecto
@@ -19,7 +18,7 @@ Acta::Acta(){
     this->numeroJurados=0;
 }
 // Constructor con parametros 
-Acta::Acta(int numero, string fecha, string autor, string nombre, string tipo, int periodo, string director, string codirector, string estado, double notaFinal){
+Acta::Acta(int numero, string fecha, string autor, string nombre, string tipo, int periodo, string director, string codirector, string estado){
     this->numero = numero;
     this->fecha = fecha;
     this->autor = autor;
@@ -29,7 +28,6 @@ Acta::Acta(int numero, string fecha, string autor, string nombre, string tipo, i
     this->director = director;
     this->codirector = codirector;
     this->estado = estado;
-    this->notaFinal = notaFinal;
     this->numeroCriterios=0;
     this->numeroJurados=0;
 

@@ -1,5 +1,5 @@
 #ifndef CRITERIO_H
-#define CRITERIO_H 1
+#define CRITERIO_H 
 #include<iostream>
 #include<string>
 using namespace std;

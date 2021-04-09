@@ -1,15 +1,37 @@
 #include <iostream>
-#include <string>
-#include "Acta.h"
-using namespace std;
+#include "menu.h"
+#include "Universidad.h"
 
-int menu()
+int main()
 {
+    Universidad javeriana;
     int opcion;
-    cout << "Menu Actas\n"<< endl;
-    cout << "1. Agregar Actas" << endl;
-    cout << "0. Salir\n" <<endl;
-    cout << "Digita el numero: " << endl;
-    cin >> opcion;
-    return opcion;
-}
+    std::cout << "\n";
+    do
+    {
+        opcion = menu();
+        switch (opcion)
+        {
+        case 0:
+            break;
+        case 1:
+            javeriana.crearActas();
+            break;
+        case 2:
+            std::cout << "\n";
+            javeriana.mostrarActas();
+            std::cout << "\n";
+            break;
+        case 3:
+            std::cout << "Lo siento no esta hecha \n";
+            break;
+        case 4:
+            std::cout << "Lo siento no esta hecha \n";
+            break;
+        default:
+            std::cout << "\nNumero invalido\n"
+                      << std::endl;
+            break;
+        }
+    } while (opcion != 0);
+    return 0;
