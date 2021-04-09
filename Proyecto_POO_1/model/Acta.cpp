@@ -2,7 +2,18 @@
 #include <string>
 #include <iostream>
 using namespace std;
-
+Acta::Acta(){
+    this->numero = 0;
+    this->fecha = "";
+    this->autor = "";
+    this->nombre = "";
+    this->tipo = "";
+    this->periodo = 0;
+    this->director = "";
+    this->codirector = "";
+    this->estado = "";
+    this->notaFinal = "";
+}
 Acta::Acta(int numero, string fecha, string autor, string nombre, string tipo, int periodo, string director, string codirector, string estado, double notaFinal){
     this->numero = numero;
     this->fecha = fecha;

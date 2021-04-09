@@ -3,6 +3,10 @@
 #include <iostream>
 using namespace std;
 
+
+Criterio::Criterio(){
+    
+}
 Criterio::Criterio(string observacion, double porcentaje, int id){
     this->observacion = observacion;
     this->porcentaje = porcentaje;

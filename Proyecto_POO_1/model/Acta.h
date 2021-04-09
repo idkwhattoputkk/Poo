@@ -1,5 +1,5 @@
 #ifndef ACTA_H
-#define ACTA_H
+#define ACTA_H 1
 #include<iostream>
 #include<string>
 using namespace std;
@@ -16,6 +16,7 @@ private:
 	string estado;
 	double notaFinal;
 public:
+    Acta();
     Acta(int numero, string fecha, string autor, string nombre, string tipo, int periodo, string director, string codirector, string estado, double notaFinal);
     int getNumero();
     void setNumero(int numero);
