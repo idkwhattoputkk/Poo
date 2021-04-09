@@ -27,6 +27,7 @@ class Universidad{
     void mostrarNumeroAplicado(string tipo);
     void mostrarNumeroInvestigacion(string tipo);
     void guardarActas();
+    void eliminarActa();
      
 
 
