@@ -1,5 +1,5 @@
 all: compilar
-compilar: Acta Main Jurado Criterio Menu
+compilar: Acta Main Jurado Criterio Menu Universidad Menu Main 
 		g++ -o Universidad Jurado.o Acta.o Universidad.o Menu.o Main.o  Criterio.o
 Acta: Acta.cpp Acta.h
 		g++ -c Acta.cpp
