@@ -53,5 +53,6 @@ class Acta{
         void addCriterio();
         void mostrarActa();
         void calcularNotaFinal();
+        string nombreJurado(string nonbreJurado);
 };
 #endif

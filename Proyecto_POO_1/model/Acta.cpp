@@ -84,8 +84,17 @@ void Acta::calcularNotaFinal(){
     for (int i = 0; i < numeroCriterios; i++)
     {
         notaFinal += criterios[i].calcularNota();
-    }
-    
+    }  
+}
+string Acta::nombreJurado(string nombreJurado){
+    string retJu; //returns the name of the judge 
+    for (int i = 0; i < numeroJurados; i++)
+    {
+        if(nombreJurado == jurados[i].getNombre()){
+            retJu = jurados[i].getNombre();
+        }
+    } 
+    return retJu;
 }
 // getters and setters para instanciacion y accesibilidad de la clase
 int Acta::getNumero(){

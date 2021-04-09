@@ -62,7 +62,7 @@ void Universidad::agregarCriterios(int numero){
     }
 }
 void Universidad::mostrarNumeroAplicado(string tipo){
-    int numApli; // numero de aplicado
+    int numApli = 0; // numero de aplicado
     for (list<Acta>::iterator acta = listaActas.begin(); acta != listaActas.end() ; acta++)
     {
         if(acta->getTipo() == tipo){
@@ -73,7 +73,7 @@ void Universidad::mostrarNumeroAplicado(string tipo){
     cout<< numApli;
 }
 void Universidad::mostrarNumeroInvestigacion(string tipo){
-    int numInves; // numero de investigacion
+    int numInves = 0; // numero de investigacion
     for (list<Acta>::iterator acta = listaActas.begin(); acta != listaActas.end() ; acta++)
     {
         if(acta->getTipo() == tipo){
@@ -91,6 +91,23 @@ void Universidad::guardarActas(){
         file1.open("Actas.txt", ios::app);
         file1.write((char*)&acta,sizeof(acta));
         file1.close();
+    }
+}
+void Universidad::eliminarActa(){
+    // for (list<Acta>::iterator acta = listaActas.begin(); acta != listaActas.end() ; acta++)
+    //     {
+    //         if(acta->getTipo() == tipo){
+    //             numInves++;
+    //         }
+    //     }
+}
+void Universidad::mostrarNumJurado(string nombreJur){
+    int vecesJuez = 0;
+    for (list<Acta>::iterator acta = listaActas.begin(); acta != listaActas.end() ; acta++)
+    {
+        if(acta->nombreJurado(nombreJur) == nombreJur){
+            vecesJuez++;
+        }
     }
 }
 string Universidad::getNombre(){
