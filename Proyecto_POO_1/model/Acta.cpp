@@ -16,3 +16,15 @@ Acta::Acta(int numero, string fecha, string autor, string nombre, string tipo, i
     this->notaFinal = notaFinal;
 
 }
+int Acta::getNumero(){
+    return numero;
+}
+void Acta::setNumero(int numero){
+    this->numero = numero;
+}
+string Acta::getFecha(){
+    return fecha;
+}
+void Acta::setFecha(string fecha){
+    this->fecha = fecha;
+}
