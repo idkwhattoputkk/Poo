@@ -47,7 +47,7 @@ void Acta::addJurado(){ // añadir jurados
         numeroJurados++;
     }
 }
-void Acta::addCriterio(){// añadir criterios
+void Acta::addCriterio(){  // añadir criterio
     string observacion;
     double porcentaje;
     int id;
