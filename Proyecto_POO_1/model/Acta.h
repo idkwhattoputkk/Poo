@@ -25,13 +25,17 @@ public:
     void setAutor(string autor);
     string getNombre();
     void setNombre(string nombre);
+    string getTipo();
+    void setTipo(string tipo);
     int getPeriodo();
     void setPeriodo(int periodo);
     string getDirector();
     void setDirector(string director);
     string getCodirector();
     void setCodirector(string codirector);
-    double getnotaFinal();
-    void setnotaFinal(double notaFinal);
+    string getEstado();
+    void setEstado(string estado);
+    double getNotaFinal();
+    void setNotaFinal(double notaFinal);
 };
 #endif
