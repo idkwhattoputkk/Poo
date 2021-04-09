@@ -40,6 +40,14 @@ int main()
             std::cout << "\n";
             // std::cout << "Lo siento no esta hecha \n";
             break;
+        case 5: 
+            std::cout << "\n";
+            javeriana.mostrarNumeroAplicado("aplicado");
+            std::cout << "\n";
+        case 6: 
+            std::cout << "\n";
+            javeriana.mostrarNumeroInvestigacion("investigacion");
+            std::cout << "\n";
         default:
             std::cout << "\nNumero invalido\n"
                       << std::endl;
