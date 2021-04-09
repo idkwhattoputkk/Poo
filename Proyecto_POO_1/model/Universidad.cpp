@@ -61,6 +61,28 @@ void Universidad::agregarCriterios(int numero){
         }
     }
 }
+void Universidad::mostrarNumeroAplicado(string tipo){
+    int numApli; // numero de aplicado
+    for (list<Acta>::iterator acta = listaActas.begin(); acta != listaActas.end() ; acta++)
+    {
+        if(acta->getTipo() == tipo){
+            numApli++;
+        }
+    }
+    cout<< "Numero de actas del tipo aplicado: "<<endl;
+    cout<< numApli;
+}
+void Universidad::mostrarNumeroInvestigacion(string tipo){
+    int numInves; // numero de investigacion
+    for (list<Acta>::iterator acta = listaActas.begin(); acta != listaActas.end() ; acta++)
+    {
+        if(acta->getTipo() == tipo){
+            numInves++;
+        }
+    }
+    cout<< "Numero de actas del tipo investigacion: "<<endl;
+    cout<< numInves;
+}
 string Universidad::getNombre(){
     return nombre;
 }

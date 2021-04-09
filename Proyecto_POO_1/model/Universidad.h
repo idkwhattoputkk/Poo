@@ -23,6 +23,8 @@ class Universidad{
     void mostrarActas();
     void agregarJurados(int numero);
     void agregarCriterios(int numero);
+    void mostrarNumeroAplicado(string tipo);
+    void mostrarNumeroInvestigacion(string tipo);
      
 
 
