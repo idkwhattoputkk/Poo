@@ -1,5 +1,5 @@
 #ifndef ACTA_H
-#define ACTA_H 1
+#define ACTA_H 
 #include<iostream>
 #include<string>
 #include "Criterio.h"
@@ -20,11 +20,11 @@ class Acta{
         string codirector;
         string estado;
         double notaFinal;
-    //Atributos de asociacion
-    Criterio criterios[8];
-    int numeroCriterios;
-    Jurado jurados[2];
-    int numeroJurados;
+        //Atributos de asociacion
+        Criterio criterios[8];
+        int numeroCriterios;
+        Jurado jurados[2];
+        int numeroJurados;
     //metodos de la clase 
     public:
         Acta();
@@ -49,5 +49,7 @@ class Acta{
         void setEstado(string estado);
         double getNotaFinal();
         void setNotaFinal(double notaFinal);
+        void addJurado();
+        void addCriterio();
 };
 #endif

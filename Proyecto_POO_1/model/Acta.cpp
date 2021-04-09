@@ -14,7 +14,9 @@ Acta::Acta(){
     this->director = "";
     this->codirector = "";
     this->estado = "";
-    this->notaFinal = "";
+    this->notaFinal = 0.0;
+    this->numeroCriterios=0;
+    this->numeroJurados=0;
 }
 // Constructor con parametros 
 Acta::Acta(int numero, string fecha, string autor, string nombre, string tipo, int periodo, string director, string codirector, string estado, double notaFinal){
@@ -28,9 +30,40 @@ Acta::Acta(int numero, string fecha, string autor, string nombre, string tipo, i
     this->codirector = codirector;
     this->estado = estado;
     this->notaFinal = notaFinal;
+    this->numeroCriterios=0;
+    this->numeroJurados=0;
 
 }
-// getters and setters 
+//metodos diferentes a los de instanciacion
+
+void Acta::addJurado(){ // añadir jurados 
+    string nombre, firma;
+    cout <<"ingrese el nombre del jurado: "<<endl;
+    cin >> nombre;
+    cout <<"ingrese la firma del jurado: "<<endl;
+    cin >> firma;
+    if(numeroJurados < 2){
+        jurados[numeroJurados] = Jurado(nombre,firma);
+        numeroJurados++;
+    }
+}
+void Acta::addCriterio(){// añadir criterios
+    string observacion;
+    double porcentaje;
+    int id;
+    cout <<"ingrese la observacion: "<<endl;
+    cin >> observacion;
+    cout <<"ingrese el porcentaje: "<<endl;
+    cin >> porcentaje;
+    cout <<"ingrese el id del criterio: "<<endl;
+    cin >> id;
+    if(numeroCriterios<8){
+        criterios[numeroCriterios] = Criterio(observacion, porcentaje, id);
+        numeroCriterios++;
+    }
+    
+}
+// getters and setters para instanciacion y accesibilidad de la clase
 int Acta::getNumero(){
     return numero;
 }

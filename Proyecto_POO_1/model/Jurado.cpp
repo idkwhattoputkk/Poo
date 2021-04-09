@@ -12,7 +12,7 @@ Jurado::Jurado(string nombre, string firma){
     this->nombre = nombre;
     this->firma = firma;
 }
-//getters and setters
+//getters and setters (Metodos de instancia)
 string Jurado::getNombre(){
     return nombre;
 }

@@ -5,7 +5,7 @@ using namespace std;
 
 //Constructors
 Criterio::Criterio(){
-     this->observacion = "";
+    this->observacion = "";
     this->porcentaje = 0.0;
     this->id = 0;
 }

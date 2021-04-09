@@ -1,6 +1,5 @@
 #ifndef JURADO_H
 #define JURADO_H 1
-#include "Criterio.h"
 #include<iostream>
 #include<string>
 using namespace std;

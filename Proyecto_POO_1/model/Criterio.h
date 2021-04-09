@@ -3,6 +3,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
+
 //clase Criterio
 class Criterio{
     //atributos de instacia
