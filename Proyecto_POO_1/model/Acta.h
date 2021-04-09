@@ -2,11 +2,13 @@
 #define ACTA_H 1
 #include<iostream>
 #include<string>
+#include "Criterio.h"
+#include "Jurado.h"
 using namespace std;
 //Clase jurado
 class Acta{
 
-    //Atributos de la clase
+    //Atributos de la clase para instanciacion
     private:
         int numero;
         string fecha;
@@ -18,7 +20,11 @@ class Acta{
         string codirector;
         string estado;
         double notaFinal;
-        
+    //Atributos de asociacion
+    Criterio criterios[8];
+    int numeroCriterios;
+    Jurado jurados[2];
+    int numeroJurados;
     //metodos de la clase 
     public:
         Acta();
