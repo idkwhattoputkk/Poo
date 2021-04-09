@@ -1,5 +1,5 @@
 #include <iostream>
-#include "menu.h"
+#include "Menu.h"
 #include "Universidad.h"
 
 int main()
@@ -32,11 +32,11 @@ int main()
             // std::cout << "Lo siento no esta hecha \n";
             break;
         case 4:
-            int numero;
+            int num;
             std::cout << "\n";
             std::cout << "Ingrese el numero de la acta para agregar criterios";
             std::cin >> numero;
-            javeriana.agregarCriterios(numero);
+            javeriana.agregarCriterios(num);
             std::cout << "\n";
             // std::cout << "Lo siento no esta hecha \n";
             break;
@@ -47,3 +47,4 @@ int main()
         }
     } while (opcion != 0);
     return 0;
+}
