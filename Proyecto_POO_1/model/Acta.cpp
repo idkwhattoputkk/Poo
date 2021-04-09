@@ -2,6 +2,8 @@
 #include <string>
 #include <iostream>
 using namespace std;
+
+// constructor por defecto
 Acta::Acta(){
     this->numero = 0;
     this->fecha = "";
@@ -14,6 +16,7 @@ Acta::Acta(){
     this->estado = "";
     this->notaFinal = "";
 }
+// Constructor con parametros 
 Acta::Acta(int numero, string fecha, string autor, string nombre, string tipo, int periodo, string director, string codirector, string estado, double notaFinal){
     this->numero = numero;
     this->fecha = fecha;
@@ -27,6 +30,7 @@ Acta::Acta(int numero, string fecha, string autor, string nombre, string tipo, i
     this->notaFinal = notaFinal;
 
 }
+// getters and setters 
 int Acta::getNumero(){
     return numero;
 }

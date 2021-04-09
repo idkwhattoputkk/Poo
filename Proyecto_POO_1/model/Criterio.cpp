@@ -3,9 +3,11 @@
 #include <iostream>
 using namespace std;
 
-
+//Constructors
 Criterio::Criterio(){
-    
+     this->observacion = "";
+    this->porcentaje = 0.0;
+    this->id = 0;
 }
 Criterio::Criterio(string observacion, double porcentaje, int id){
     this->observacion = observacion;
@@ -13,6 +15,7 @@ Criterio::Criterio(string observacion, double porcentaje, int id){
     this->id = id; 
     
 }
+// getters and setters
 string Criterio::getObservacion(){
     return observacion;
 }

@@ -3,40 +3,45 @@
 #include<iostream>
 #include<string>
 using namespace std;
+//Clase jurado
 class Acta{
-private:
-	int numero;
-	string fecha;
-	string autor;
-	string nombre;
-    string tipo;
-	int periodo;
-	string director;
-	string codirector;
-	string estado;
-	double notaFinal;
-public:
-    Acta();
-    Acta(int numero, string fecha, string autor, string nombre, string tipo, int periodo, string director, string codirector, string estado, double notaFinal);
-    int getNumero();
-    void setNumero(int numero);
-    string getFecha();
-    void setFecha(string fecha);
-    string getAutor();
-    void setAutor(string autor);
-    string getNombre();
-    void setNombre(string nombre);
-    string getTipo();
-    void setTipo(string tipo);
-    int getPeriodo();
-    void setPeriodo(int periodo);
-    string getDirector();
-    void setDirector(string director);
-    string getCodirector();
-    void setCodirector(string codirector);
-    string getEstado();
-    void setEstado(string estado);
-    double getNotaFinal();
-    void setNotaFinal(double notaFinal);
+
+    //Atributos de la clase
+    private:
+        int numero;
+        string fecha;
+        string autor;
+        string nombre;
+        string tipo;
+        int periodo;
+        string director;
+        string codirector;
+        string estado;
+        double notaFinal;
+        
+    //metodos de la clase 
+    public:
+        Acta();
+        Acta(int numero, string fecha, string autor, string nombre, string tipo, int periodo, string director, string codirector, string estado, double notaFinal);
+        int getNumero();
+        void setNumero(int numero);
+        string getFecha();
+        void setFecha(string fecha);
+        string getAutor();
+        void setAutor(string autor);
+        string getNombre();
+        void setNombre(string nombre);
+        string getTipo();
+        void setTipo(string tipo);
+        int getPeriodo();
+        void setPeriodo(int periodo);
+        string getDirector();
+        void setDirector(string director);
+        string getCodirector();
+        void setCodirector(string codirector);
+        string getEstado();
+        void setEstado(string estado);
+        double getNotaFinal();
+        void setNotaFinal(double notaFinal);
 };
 #endif

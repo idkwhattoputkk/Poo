@@ -3,10 +3,16 @@
 #include <iostream>
 using namespace std;
 
+//Constructors
+Jurado::Jurado(){
+    this->nombre = "";
+    this->firma = "";
+}
 Jurado::Jurado(string nombre, string firma){
     this->nombre = nombre;
     this->firma = firma;
 }
+//getters and setters
 string Jurado::getNombre(){
     return nombre;
 }

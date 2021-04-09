@@ -4,6 +4,8 @@
 #include<iostream>
 #include<string>
 using namespace std;
+
+//Clase Jurado
 class Jurado{
     //atributos de instancia
     private:
