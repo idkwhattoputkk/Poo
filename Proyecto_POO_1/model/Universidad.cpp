@@ -83,6 +83,7 @@ void Universidad::mostrarNumeroInvestigacion(string tipo){
     cout<< "Numero de actas del tipo investigacion: "<<endl;
     cout<< numInves;
 }
+//metodo que guarda las actas cerradas
 void Universidad::guardarActas(){
     for (list<Acta>::iterator acta = listaActas.begin(); acta != listaActas.end() && acta->getEstado()=="cerrado" ; acta++)
     {

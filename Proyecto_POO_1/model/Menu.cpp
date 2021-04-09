@@ -12,6 +12,7 @@ int menu()
     cout << "4. Añadir criterios" <<endl;
     cout << "5. ver cuantos trabajos son de tipo aplicados" <<endl;
     cout << "6. ver cuantos trabajos son de tipo investigacion" <<endl;
+    cout << "7. guardar actas cerradas" <<endl;
     cout << "0. Salir\n" <<endl;
     cout << "Digita el numero: " << endl;
     cin >> opcion;

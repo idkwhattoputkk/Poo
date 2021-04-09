@@ -48,6 +48,10 @@ int main()
             std::cout << "\n";
             javeriana.mostrarNumeroInvestigacion("investigacion");
             std::cout << "\n";
+        case 7: 
+            std::cout << "\n";
+            javeriana.guardarActas();
+            std::cout << "\n";
         default:
             std::cout << "\nNumero invalido\n"
                       << std::endl;
