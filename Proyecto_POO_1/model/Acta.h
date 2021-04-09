@@ -9,11 +9,11 @@ private:
 	string fecha;
 	string autor;
 	string nombre;
-    enum tipo;
+    string tipo;
 	int periodo;
 	string director;
 	string codirector;
-	enum estado;
+	string estado;
 	double notaFinal;
 public:
     Acta();
