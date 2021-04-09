@@ -1,7 +1,7 @@
 #ifndef CRITERIO_H
 #define CRITERIO_H 
-#include<iostream>
-#include<string>
+#include <iostream>
+#include <string>
 using namespace std;
 
 //clase Criterio

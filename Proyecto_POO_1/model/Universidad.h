@@ -21,8 +21,9 @@ class Universidad{
     void setNombre(string nombre);
     void setSede(string sede);  
     void mostrarActas();
-    void agregarJurados();
-    void agregarCriterios();
+    void agregarJurados(int numero);
+    void agregarCriterios(int numero);
+     
 
 
 };

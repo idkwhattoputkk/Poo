@@ -51,5 +51,6 @@ class Acta{
         void setNotaFinal(double notaFinal);
         void addJurado();
         void addCriterio();
+        void mostrarActa();
 };
 #endif

@@ -33,7 +33,19 @@ Acta::Acta(int numero, string fecha, string autor, string nombre, string tipo, i
 
 }
 //metodos diferentes a los de instanciacion
-
+void Acta::mostrarActa(){
+    cout << "==================" << endl;
+    cout << "Numero: " << this->numero << endl;
+    cout << "Fecha: " << this->fecha << endl;
+    cout << "Autor: " << this->autor << endl;
+    cout << "nombre: " << this->nombre << endl;
+    cout << "Tipo " << this->tipo << endl;
+    cout << "Periodo " << this->periodo << endl;
+    cout << "Director" << this->director << endl;
+    cout << "Codirector" << this->codirector << endl;
+    cout << "Estado" << this->estado << endl;
+    
+}
 void Acta::addJurado(){ // añadir jurados 
     string nombre, firma;
     cout <<"ingrese el nombre del jurado: "<<endl;
@@ -43,6 +55,8 @@ void Acta::addJurado(){ // añadir jurados
     if(numeroJurados < 2){
         jurados[numeroJurados] = Jurado(nombre,firma);
         numeroJurados++;
+    }else{
+        cout<< "Se exedio el numero de jurados"<<endl;
     }
 }
 void Acta::addCriterio(){  // añadir criterio
@@ -58,6 +72,8 @@ void Acta::addCriterio(){  // añadir criterio
     if(numeroCriterios<8){
         criterios[numeroCriterios] = Criterio(observacion, porcentaje, id);
         numeroCriterios++;
+    }else{
+        cout<< "Se exedio el numero de criterios"<<endl;
     }
     
 }

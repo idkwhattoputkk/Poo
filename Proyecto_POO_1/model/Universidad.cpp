@@ -38,3 +38,31 @@ void Universidad::crearActas(){
 
     listaActas.push_back(Acta(numero, fecha,autor,nombre, tipo, periodo, director, codirector, estado));
 }
+void Universidad::mostrarActas(){
+    for (list<Acta>::iterator acta = listaActas.begin(); acta != listaActas.end(); acta++)
+    {
+        acta->mostrarActa();
+    }
+}
+void Universidad::agregarJurados(int numero){
+
+}
+void Universidad::agregarCriterios(int numero){
+    
+    // for (list<Acta>::iterator acta = listaActas.begin(); acta != listaActas.end(); acta++)
+    // {
+        
+    // }
+}
+string Universidad::getNombre(){
+    return nombre;
+}
+string Universidad::getSede(){
+    return sede;
+}
+void Universidad::setNombre(string nombre){
+    this->nombre = nombre;
+}
+void Universidad::setSede(string sede){
+    this->sede= sede;
+}
