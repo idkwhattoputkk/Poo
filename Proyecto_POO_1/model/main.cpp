@@ -23,10 +23,22 @@ int main()
             std::cout << "\n";
             break;
         case 3:
-            std::cout << "Lo siento no esta hecha \n";
+            int numero;
+            std::cout << "\n";
+            std::cout << "Ingrese el numero de la acta para agregar jurado";
+            std::cin >> numero;
+            javeriana.agregarJurados(numero);
+            std::cout << "\n";
+            // std::cout << "Lo siento no esta hecha \n";
             break;
         case 4:
-            std::cout << "Lo siento no esta hecha \n";
+            int numero;
+            std::cout << "\n";
+            std::cout << "Ingrese el numero de la acta para agregar criterios";
+            std::cin >> numero;
+            javeriana.agregarCriterios(numero);
+            std::cout << "\n";
+            // std::cout << "Lo siento no esta hecha \n";
             break;
         default:
             std::cout << "\nNumero invalido\n"

@@ -61,7 +61,7 @@ void Acta::addJurado(){ // añadir jurados
 }
 void Acta::addCriterio(){  // añadir criterio
     string observacion;
-    double porcentaje;
+    double porcentaje, nota;
     int id;
     cout <<"ingrese la observacion: "<<endl;
     cin >> observacion;
@@ -69,11 +69,21 @@ void Acta::addCriterio(){  // añadir criterio
     cin >> porcentaje;
     cout <<"ingrese el id del criterio: "<<endl;
     cin >> id;
+    cout <<"ingrese la nota parcial: "<<endl;
+    cin >> nota;
+
     if(numeroCriterios<8){
-        criterios[numeroCriterios] = Criterio(observacion, porcentaje, id);
+        criterios[numeroCriterios] = Criterio(observacion, porcentaje, id, nota);
         numeroCriterios++;
     }else{
         cout<< "Se exedio el numero de criterios"<<endl;
+    }
+    
+}
+void Acta::calcularNotaFinal(){
+    for (int i = 0; i < numeroCriterios; i++)
+    {
+        notaFinal += criterios[i].calcularNota();
     }
     
 }

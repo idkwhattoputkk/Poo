@@ -7,11 +7,18 @@ Criterio::Criterio(){
     this->porcentaje = 0.0;
     this->id = 0;
 }
-Criterio::Criterio(string observacion, double porcentaje, int id){
+Criterio::Criterio(string observacion, double porcentaje, int id, double nota){
     this->observacion = observacion;
     this->porcentaje = porcentaje;
     this->id = id; 
+    this->nota = nota;
     
+}
+// metodo calculo parcial de la nota del total de criterios
+double Criterio::calcularNota(){
+    double notaPfinal; // nota parcial final
+    notaPfinal =  porcentaje * nota;
+    return notaPfinal;
 }
 // getters and setters
 string Criterio::getObservacion(){

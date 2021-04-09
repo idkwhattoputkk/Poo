@@ -1,7 +1,7 @@
 #ifndef ACTA_H
 #define ACTA_H 
-#include<iostream>
-#include<string>
+#include <iostream>
+#include <string>
 #include "Criterio.h"
 #include "Jurado.h"
 using namespace std;
@@ -52,5 +52,6 @@ class Acta{
         void addJurado();
         void addCriterio();
         void mostrarActa();
+        void calcularNotaFinal();
 };
 #endif
