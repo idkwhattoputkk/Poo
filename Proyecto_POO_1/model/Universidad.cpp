@@ -83,6 +83,15 @@ void Universidad::mostrarNumeroInvestigacion(string tipo){
     cout<< "Numero de actas del tipo investigacion: "<<endl;
     cout<< numInves;
 }
+void Universidad::guardarActas(){
+    for (list<Acta>::iterator acta = listaActas.begin(); acta != listaActas.end() && acta->getEstado()=="cerrado" ; acta++)
+    {
+        ofstream file1;
+        file1.open("Actas.txt", ios::app);
+        file1.write((char*)&acta,sizeof(acta));
+        file1.close();
+    }
+}
 string Universidad::getNombre(){
     return nombre;
 }

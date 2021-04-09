@@ -1,6 +1,7 @@
 #ifndef UNIVERSIDAD_H
 #define UNIVERSIDAD_H
 #include <iostream>
+#include <fstream>
 #include <list>
 #include "Acta.h"
 
@@ -25,6 +26,7 @@ class Universidad{
     void agregarCriterios(int numero);
     void mostrarNumeroAplicado(string tipo);
     void mostrarNumeroInvestigacion(string tipo);
+    void guardarActas();
      
 
 
