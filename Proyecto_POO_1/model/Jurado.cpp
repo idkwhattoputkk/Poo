@@ -1,7 +1,5 @@
 #include "Jurado.h"
 
-using namespace std;
-
 //Constructors
 Jurado::Jurado(){
     this->nombre = "";

@@ -1,12 +1,12 @@
 #include <iostream>
 #include "Menu.h"
 #include "Universidad.h"
-
+using namespace std;
 int main()
 {
     Universidad javeriana;
     int opcion;
-    std::cout << "\n";
+    cout << "\n";
     do
     {
         opcion = menu();
@@ -18,43 +18,43 @@ int main()
             javeriana.crearActas();
             break;
         case 2:
-            std::cout << "\n";
+            cout << "\n";
             javeriana.mostrarActas();
-            std::cout << "\n";
+            cout << "\n";
             break;
         case 3:
             int numero;
-            std::cout << "\n";
-            std::cout << "Ingrese el numero de la acta para agregar jurado";
-            std::cin >> numero;
+            cout << "\n";
+            cout << "Ingrese el numero de la acta para agregar jurado";
+            cin >> numero;
             javeriana.agregarJurados(numero);
-            std::cout << "\n";
-            // std::cout << "Lo siento no esta hecha \n";
+            cout << "\n";
+            // cout << "Lo siento no esta hecha \n";
             break;
         case 4:
             int num;
-            std::cout << "\n";
-            std::cout << "Ingrese el numero de la acta para agregar criterios";
-            std::cin >> numero;
+            cout << "\n";
+            cout << "Ingrese el numero de la acta para agregar criterios";
+            cin >> numero;
             javeriana.agregarCriterios(num);
-            std::cout << "\n";
-            // std::cout << "Lo siento no esta hecha \n";
+            cout << "\n";
+            // cout << "Lo siento no esta hecha \n";
             break;
         case 5: 
-            std::cout << "\n";
+            cout << "\n";
             javeriana.mostrarNumeroAplicado("aplicado");
-            std::cout << "\n";
+            cout << "\n";
         case 6: 
-            std::cout << "\n";
+            cout << "\n";
             javeriana.mostrarNumeroInvestigacion("investigacion");
-            std::cout << "\n";
+            cout << "\n";
         case 7: 
-            std::cout << "\n";
+            cout << "\n";
             javeriana.guardarActas();
-            std::cout << "\n";
+            cout << "\n";
         default:
-            std::cout << "\nNumero invalido\n"
-                      << std::endl;
+            cout << "\nNumero invalido\n"
+                      << endl;
             break;
         }
     } while (opcion != 0);

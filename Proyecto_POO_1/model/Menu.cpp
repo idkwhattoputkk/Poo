@@ -1,6 +1,6 @@
 #include "Menu.h"
 
-using namespace std;
+
 //Metodo comunicacion con el usario.
 int menu()
 {

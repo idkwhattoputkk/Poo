@@ -1,7 +1,5 @@
 #include "Acta.h"
 
-using namespace std;
-
 // constructor por defecto
 Acta::Acta(){
     this->numero = 0;

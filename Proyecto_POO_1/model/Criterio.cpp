@@ -1,5 +1,5 @@
 #include "Criterio.h"
-using namespace std;
+
 
 //Constructors
 Criterio::Criterio(){
