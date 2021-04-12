@@ -37,24 +37,24 @@ void Acta::mostrarActa(){
     cout << "Fecha: " << this->fecha << endl;
     cout << "Autor: " << this->autor << endl;
     cout << "nombre: " << this->nombre << endl;
-    cout << "Tipo " << this->tipo << endl;
-    cout << "Periodo " << this->periodo << endl;
-    cout << "Director" << this->director << endl;
-    cout << "Codirector" << this->codirector << endl;
-    cout << "Estado" << this->estado << endl;
+    cout << "Tipo: " << this->tipo << endl;
+    cout << "Periodo: " << this->periodo << endl;
+    cout << "Director: " << this->director << endl;
+    cout << "Codirector: " << this->codirector << endl;
+    cout << "Estado: " << this->estado << endl;
     
 }
 void Acta::addJurado(){ // añadir jurados 
     string nombre, firma;
-    cout <<"ingrese el nombre del jurado: "<<endl;
+    cout <<"ingrese el nombre del jurado: "<< endl;
     cin >> nombre;
-    cout <<"ingrese la firma del jurado: "<<endl;
+    cout <<"ingrese la firma del jurado: "<< endl;
     cin >> firma;
     if(numeroJurados < 2){
         jurados[numeroJurados] = Jurado(nombre,firma);
         numeroJurados++;
     }else{
-        cout<< "Se exedio el numero de jurados"<<endl;
+        cout<< "Se exedio el numero de jurados"<< endl;
     }
 }
 void Acta::addCriterio(){  // añadir criterio
@@ -74,7 +74,7 @@ void Acta::addCriterio(){  // añadir criterio
         criterios[numeroCriterios] = Criterio(observacion, porcentaje, id, nota);
         numeroCriterios++;
     }else{
-        cout<< "Se exedio el numero de criterios"<<endl;
+        cout<< "Se exedio el numero de criterios."<<endl;
     }
     
 }

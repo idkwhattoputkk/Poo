@@ -46,15 +46,15 @@ void Universidad::mostrarActas(){
 }
 void Universidad::agregarJurados(int numero){
     for (list<Acta>::iterator acta = listaActas.begin(); acta != listaActas.end(); acta++)
-        {
-            if(acta->getNumero() == numero){
-                acta->addJurado();
-            }
+    {
+        if(acta->getNumero() == numero){
+            acta->addJurado();
         }
+    }
 }
 void Universidad::agregarCriterios(int numero){
     
-    for (list<Acta>::iterator acta = listaActas.begin(); acta != listaActas.end() ; acta++)
+    for (list<Acta>::iterator acta = listaActas.begin(); acta != listaActas.end(); acta++)
     {
         if(acta->getNumero() == numero){
             acta->addCriterio();

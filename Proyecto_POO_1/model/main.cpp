@@ -25,7 +25,7 @@ int main()
         case 3:
             int numero;
             cout << "\n";
-            cout << "Ingrese el numero de la acta para agregar jurado";
+            cout << "Ingrese el numero de la acta para agregar jurado:  "<< endl;
             cin >> numero;
             javeriana.agregarJurados(numero);
             cout << "\n";
@@ -34,7 +34,7 @@ int main()
         case 4:
             int num;
             cout << "\n";
-            cout << "Ingrese el numero de la acta para agregar criterios";
+            cout << "Ingrese el numero de la acta para agregar criterios: "<< endl;
             cin >> numero;
             javeriana.agregarCriterios(num);
             cout << "\n";
