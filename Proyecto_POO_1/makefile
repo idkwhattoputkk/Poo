@@ -19,4 +19,4 @@ Menu: ${USERINTERFACE}/Menu.cpp userInterface/Menu.h
 Main: Main.cpp ${USERINTERFACE}/Menu.h 
 	  g++ -c ${debug} Main.cpp
 Clean: 
-	rm -f *.o *~ 
+	rm -f *.o *.exe *~ 
