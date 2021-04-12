@@ -1,6 +1,6 @@
 #include <iostream>
 #include "Menu.h"
-#include "Universidad.h"
+#include "model/Universidad.h"
 using namespace std;
 int main()
 {
