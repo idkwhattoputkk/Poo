@@ -11,12 +11,12 @@ Acta: ${MODEL}/Acta.cpp ${MODEL}/Acta.h
 Criterio: ${MODEL}/Criterio.cpp ${MODEL}/Criterio.h
 		g++ -c ${debug} ${MODEL}/Criterio.cpp
 Jurado: ${MODEL}/Jurado.cpp ${MODEL}/Jurado.h
-		g++ -c ${debug} Jurado.cpp
+		g++ -c ${debug} ${MODEL}/Jurado.cpp
 Universidad: ${MODEL}/Universidad.cpp ${MODEL}/Universidad.h
 		g++ -c ${debug} ${MODEL}/Universidad.cpp
 Menu: ${USERINTERFACE}/Menu.cpp userInterface/Menu.h
 		g++ -c ${debug} ${USERINTERFACE}/Menu.cpp
-Main: Main.cpp ${USERINTERFACE}/Menu.h ${MODEL}/Universidad.h ${MODEL}/Jurado.h 
+Main: Main.cpp ${USERINTERFACE}/Menu.h 
 	  g++ -c ${debug} Main.cpp
-clean: 
+Clean: 
 	delete Jurado.o Acta.o Universidad.o Menu.o Main.o Criterio.o
