@@ -12,6 +12,6 @@ Universidad: Universidad.cpp Universidad.h
 Menu: Menu.cpp Menu.h
 		g++ -c -ggdb3 userInterface/Menu.cpp
 Main: Main.cpp Menu.h Universidad.h Jurado.h 
-	  g++ -c -ggdb3 userInterface/Main.cpp
+	  g++ -c -ggdb3 Main.cpp
 clean: 
 	delete Jurado.o Acta.o Universidad.o Menu.o Main.o Criterio.o
