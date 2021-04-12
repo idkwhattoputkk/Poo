@@ -19,4 +19,4 @@ Menu: ${USERINTERFACE}/Menu.cpp userInterface/Menu.h
 Main: Main.cpp ${USERINTERFACE}/Menu.h 
 	  g++ -c ${debug} Main.cpp
 Clean: 
-	delete Jurado.o Acta.o Universidad.o Menu.o Main.o Criterio.o
+	rm -f *.o *~ 
