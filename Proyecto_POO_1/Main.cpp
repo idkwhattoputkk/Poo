@@ -29,7 +29,6 @@ int main()
             cin >> numero;
             javeriana.agregarJurados(numero);
             cout << "\n";
-            // cout << "Lo siento no esta hecha \n";
             break;
         case 4:
             int num;
@@ -38,7 +37,6 @@ int main()
             cin >> numero;
             javeriana.agregarCriterios(num);
             cout << "\n";
-            // cout << "Lo siento no esta hecha \n";
             break;
         case 5: 
             cout << "\n";
