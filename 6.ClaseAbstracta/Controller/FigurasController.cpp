@@ -42,10 +42,14 @@ void FigurasController::llenarListaTodosDummy()
     Circulo *pMiCirculo = new Circulo(10);
     Rectangulo *pMiRectangulo = new Rectangulo(10, 10);
     Rectangulo *pMiRectangulo2 = new Rectangulo(20, 20);
+    Cuadrado *pMiCuadrado = new Cuadrado(10,10);
+    Triangulo *pMiTriangulo = new Triangulo(20,20);
     int arreglo[10];
     this->pListaFiguras.push_back(pMiCirculo);
     this->pListaFiguras.push_back(pMiRectangulo);
     this->pListaFiguras.push_back(pMiRectangulo2);
+    this->pListaFiguras.push_back(pMiTriangulo);
+    this->pListaFiguras.push_back(pMiCuadrado);
 }
 
 list<Rectangulo> &FigurasController::getListaRectangulo()
