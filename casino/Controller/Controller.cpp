@@ -5,14 +5,17 @@
 #include "Controller.h"
 #include "../Model/Mayor13.h"
 #include "../Model/DosColores.h"
+#include "../Model/FlipACoin.h"
 
 Controller::Controller() {
   this->casino = Casino();
   // Se agregan los juegos disponibles para el casino
   Mayor13 * juego1 = new Mayor13();
   DosColores * juego2 = new DosColores();
+  FlipACoin * juego3 = new FlipACoin();
   casino.agregarJuego(juego1);
   casino.agregarJuego(juego2);
+  casino.agregarJuego(juego3);
 
 }
 void Controller::agregarJugador(long id, string nombreJugador, double dinero)
@@ -85,6 +88,15 @@ void Controller::retirarJugador(long idJugador) {
 }
 
 void Controller::recargarGonzos(long idJugador) {
-
+    int dinero, gonzos, cantidadARecargar;
+    verInfoJugador(idJugador);
+    cout << "Cantidad de gonzos a recargar? " << endl;
+    cin >> gonzos;
+    cantidadARecargar = casino.convertirGonzosPesos(gonzos);
+    cout << "son: " << cantidadARecargar << " pesos"<< endl;
+    cout << "Ingrese el dinero. " << endl;
+    cin  >> dinero;
+    Jugador * aRecargar = casino.consultarJugador(idJugador);
+    aRecargar->actualizarGonzos(gonzos);
 }
 

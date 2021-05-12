@@ -61,9 +61,9 @@ void View:: jugarView(long idJugador) {
                 cin >> cantGonzos;
             } while (cantGonzos <= 0);
             do{
-                cout << "Seleccione el juego que quieres jugar: 1. el mayor 13, Dos colores 2. \n";
+                cout << "Seleccione el juego que quieres jugar: 1. el mayor 13, Dos colores 2, 3. tirar  la moneda \n";
                 cin >> idJuego;
-            }while(idJuego != 1 && idJuego != 2);
+            }while(idJuego != 1 && idJuego != 2 && idJuego != 3);
             bool  resultado = controller.jugar(idJuego, idJugador, cantGonzos);
             cout << "Apostaste: " << cantGonzos <<" gonzos \n";
             if(resultado == true){
@@ -91,8 +91,9 @@ int View::mostrarMenu()
     cout << "Menu\n";
     cout << "1. Agregar jugador " << std::endl;
     cout << "2. Jugar" << std::endl;
-    cout << "3. Consultar jugador - pendiente " << std::endl;
-    cout << "4. Vender gonzos - pendiente " << std::endl;
+    cout << "3. Consultar jugador  " << std::endl;
+    cout << "4. Vender gonzos  " << std::endl;
+    cout << "5. ELiminar jugador"  << std::endl;
     cout << "0. Salir\n"
          << std::endl;
     cout << "Digita el numero: ";
@@ -113,18 +114,39 @@ void View::verPrincipal()
             case 2:
                 pedirUsuario();
                 break;
+            case 3:
+                mostrarJugador();
+                break;
+            case 4:
+                recargarGonzos();
+                break;
+            case 5:
+                retirarJugador();
         }
     } while (opcion != 0);
 }
 
 void View::mostrarJugador() {
     long idJugador;
-    cout  << "Id del jugador a mostrar";
+    cout  << "Id del jugador a mostrar\n";
     cin >> idJugador;
     controller.verInfoJugador(idJugador);
 }
-
+void View::recargarGonzos() {
+    long idJugador;
+    cout << "Id del jugador para realizar la recarga" << endl;
+    cin >> idJugador;
+    controller.recargarGonzos(idJugador);
+}
 void View::retirarJugador() {
-    cout << "Fase dos, por hacer \n";
+    long idJugador;
+    int opcion;
+    cout  << "Id del jugador a retirar\n";
+    cin >> idJugador;
+    cout << "Jugador a eliminar" << std::endl;
+    controller.verInfoJugador(idJugador);
+    controller.retirarJugador(idJugador);
+
+    }
 }
 

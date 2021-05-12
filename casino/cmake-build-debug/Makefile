@@ -223,6 +223,33 @@ Model/DosColores.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/casino.dir/build.make CMakeFiles/casino.dir/Model/DosColores.cpp.s
 .PHONY : Model/DosColores.cpp.s
 
+Model/FlipACoin.o: Model/FlipACoin.cpp.o
+
+.PHONY : Model/FlipACoin.o
+
+# target to build an object file
+Model/FlipACoin.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/casino.dir/build.make CMakeFiles/casino.dir/Model/FlipACoin.cpp.o
+.PHONY : Model/FlipACoin.cpp.o
+
+Model/FlipACoin.i: Model/FlipACoin.cpp.i
+
+.PHONY : Model/FlipACoin.i
+
+# target to preprocess a source file
+Model/FlipACoin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/casino.dir/build.make CMakeFiles/casino.dir/Model/FlipACoin.cpp.i
+.PHONY : Model/FlipACoin.cpp.i
+
+Model/FlipACoin.s: Model/FlipACoin.cpp.s
+
+.PHONY : Model/FlipACoin.s
+
+# target to generate assembly for a file
+Model/FlipACoin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/casino.dir/build.make CMakeFiles/casino.dir/Model/FlipACoin.cpp.s
+.PHONY : Model/FlipACoin.cpp.s
+
 Model/Juego.o: Model/Juego.cpp.o
 
 .PHONY : Model/Juego.o
@@ -376,6 +403,9 @@ help:
 	@echo "... Model/DosColores.o"
 	@echo "... Model/DosColores.i"
 	@echo "... Model/DosColores.s"
+	@echo "... Model/FlipACoin.o"
+	@echo "... Model/FlipACoin.i"
+	@echo "... Model/FlipACoin.s"
 	@echo "... Model/Juego.o"
 	@echo "... Model/Juego.i"
 	@echo "... Model/Juego.s"

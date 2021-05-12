@@ -98,6 +98,12 @@
 		<Unit filename="/Users/emanuelumana/Documents/Poo/casino/Model/DosColores.h">
 			<Option target="casino"/>
 		</Unit>
+		<Unit filename="/Users/emanuelumana/Documents/Poo/casino/Model/FlipACoin.cpp">
+			<Option target="casino"/>
+		</Unit>
+		<Unit filename="/Users/emanuelumana/Documents/Poo/casino/Model/FlipACoin.h">
+			<Option target="casino"/>
+		</Unit>
 		<Unit filename="/Users/emanuelumana/Documents/Poo/casino/Model/Juego.cpp">
 			<Option target="casino"/>
 		</Unit>
