@@ -62,3 +62,10 @@ double Casino::convertirGonzosPesos(float gonzos) {
 Casino::~Casino() {
 
 }
+
+double Casino::convertirPesosAGonzos(double dinero, int numero) {
+    double gonzos;
+    // Cada 10 mil pesos equivalen a 100 Gonzos
+    numero > 5 ? 2 * ((100  * dinero)/(10000)) : (100  * dinero)/(10000);
+    return gonzos;
+}

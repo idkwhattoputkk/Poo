@@ -96,11 +96,8 @@ void Controller::recargarGonzos(long idJugador, double dinero) {
     if (dinero <= 0){
         throw std::domain_error("Cantidad de dinero irreal\n");
     }
-    gonzos = casino.convertirPesosAGonzos(dinero);
-    if(suerteNumber > 5){
-        aRecargar->actualizarGonzos(gonzos * 2);
-    }else{
-        aRecargar->actualizarGonzos(gonzos);
+    gonzos = casino.convertirPesosAGonzos(dinero, suerteNumber);
+    aRecargar->actualizarGonzos(gonzos);
     }
 
 
