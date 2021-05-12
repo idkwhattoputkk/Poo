@@ -87,16 +87,22 @@ void Controller::retirarJugador(long idJugador) {
     casino.retirarJugador(idJugador);
 }
 
-void Controller::recargarGonzos(long idJugador) {
-    int dinero, gonzos, cantidadARecargar;
+void Controller::recargarGonzos(long idJugador, double dinero) {
+    srand(time(NULL));
+    double gonzos;
+    int suerteNumber = 1+rand()%11;
     verInfoJugador(idJugador);
-    cout << "Cantidad de gonzos a recargar? " << endl;
-    cin >> gonzos;
-    cantidadARecargar = casino.convertirGonzosPesos(gonzos);
-    cout << "son: " << cantidadARecargar << " pesos"<< endl;
-    cout << "Ingrese el dinero. " << endl;
-    cin  >> dinero;
     Jugador * aRecargar = casino.consultarJugador(idJugador);
-    aRecargar->actualizarGonzos(gonzos);
+    if (dinero <= 0){
+        throw std::domain_error("Cantidad de dinero irreal\n");
+    }
+    gonzos = casino.convertirPesosAGonzos(dinero);
+    if(suerteNumber > 5){
+        aRecargar->actualizarGonzos(gonzos * 2);
+    }else{
+        aRecargar->actualizarGonzos(gonzos);
+    }
+
+
 }
 

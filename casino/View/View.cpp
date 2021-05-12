@@ -140,9 +140,12 @@ void View::mostrarJugador() {
 void View::recargarGonzos() {
     try{
         long idJugador;
+        double dinero;
         cout << "Id del jugador para realizar la recarga" << endl;
         cin >> idJugador;
-        controller.recargarGonzos(idJugador);
+        cout << "Ingrese el dinero " << endl;
+        cin >> dinero;
+        controller.recargarGonzos(idJugador, dinero);
     } catch (std::domain_error ex) {
         cout << ex.what();
     }

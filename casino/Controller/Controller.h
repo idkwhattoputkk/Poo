@@ -7,7 +7,8 @@
 #include "../Model/Jugador.h"
 #include "../Model/Casino.h"
 
-
+#include<cstdlib>
+#include<ctime>
 #include <iostream>
 #include <list>
 #include <map>
@@ -32,6 +33,6 @@ public:
     bool verPuedeContinuar(int idJugador); // True si tiene saldo para jugar, false en caso contrario
     void verInfoJugador(long idJugador);
     void retirarJugador(long idJugador);
-    void recargarGonzos(long idJugador);
+    void recargarGonzos(long idJugador, double dinero);
 };
 #endif //CASINO_CONTROLLER_H
