@@ -66,6 +66,9 @@ Casino::~Casino() {
 double Casino::convertirPesosAGonzos(double dinero, int numero) {
     double gonzos;
     // Cada 10 mil pesos equivalen a 100 Gonzos
-    numero > 5 ? 2 * ((100  * dinero)/(10000)) : (100  * dinero)/(10000);
+    if(numero > 5){
+        dinero = dinero * 2;
+    }
+    gonzos = convertirPesosAGonzos(dinero);
     return gonzos;
 }
