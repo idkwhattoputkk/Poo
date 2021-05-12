@@ -5,6 +5,7 @@ CMakeFiles/casino.dir/Controller/Controller.cpp.o: ../Controller/Controller.cpp
 CMakeFiles/casino.dir/Controller/Controller.cpp.o: ../Controller/Controller.h
 CMakeFiles/casino.dir/Controller/Controller.cpp.o: ../Model/Casino.h
 CMakeFiles/casino.dir/Controller/Controller.cpp.o: ../Model/DosColores.h
+CMakeFiles/casino.dir/Controller/Controller.cpp.o: ../Model/FlipACoin.h
 CMakeFiles/casino.dir/Controller/Controller.cpp.o: ../Model/Juego.h
 CMakeFiles/casino.dir/Controller/Controller.cpp.o: ../Model/Jugador.h
 CMakeFiles/casino.dir/Controller/Controller.cpp.o: ../Model/Mayor13.h
@@ -18,6 +19,11 @@ CMakeFiles/casino.dir/Model/DosColores.cpp.o: ../Model/DosColores.cpp
 CMakeFiles/casino.dir/Model/DosColores.cpp.o: ../Model/DosColores.h
 CMakeFiles/casino.dir/Model/DosColores.cpp.o: ../Model/Juego.h
 CMakeFiles/casino.dir/Model/DosColores.cpp.o: ../Model/Jugador.h
+
+CMakeFiles/casino.dir/Model/FlipACoin.cpp.o: ../Model/FlipACoin.cpp
+CMakeFiles/casino.dir/Model/FlipACoin.cpp.o: ../Model/FlipACoin.h
+CMakeFiles/casino.dir/Model/FlipACoin.cpp.o: ../Model/Juego.h
+CMakeFiles/casino.dir/Model/FlipACoin.cpp.o: ../Model/Jugador.h
 
 CMakeFiles/casino.dir/Model/Juego.cpp.o: ../Model/Juego.cpp
 CMakeFiles/casino.dir/Model/Juego.cpp.o: ../Model/Juego.h

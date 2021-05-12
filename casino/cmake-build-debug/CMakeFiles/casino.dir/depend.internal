@@ -6,6 +6,7 @@ CMakeFiles/casino.dir/Controller/Controller.cpp.o
  /Users/emanuelumana/Documents/Poo/casino/Controller/Controller.h
  /Users/emanuelumana/Documents/Poo/casino/Model/Casino.h
  /Users/emanuelumana/Documents/Poo/casino/Model/DosColores.h
+ /Users/emanuelumana/Documents/Poo/casino/Model/FlipACoin.h
  /Users/emanuelumana/Documents/Poo/casino/Model/Juego.h
  /Users/emanuelumana/Documents/Poo/casino/Model/Jugador.h
  /Users/emanuelumana/Documents/Poo/casino/Model/Mayor13.h
@@ -17,6 +18,11 @@ CMakeFiles/casino.dir/Model/Casino.cpp.o
 CMakeFiles/casino.dir/Model/DosColores.cpp.o
  /Users/emanuelumana/Documents/Poo/casino/Model/DosColores.cpp
  /Users/emanuelumana/Documents/Poo/casino/Model/DosColores.h
+ /Users/emanuelumana/Documents/Poo/casino/Model/Juego.h
+ /Users/emanuelumana/Documents/Poo/casino/Model/Jugador.h
+CMakeFiles/casino.dir/Model/FlipACoin.cpp.o
+ /Users/emanuelumana/Documents/Poo/casino/Model/FlipACoin.cpp
+ /Users/emanuelumana/Documents/Poo/casino/Model/FlipACoin.h
  /Users/emanuelumana/Documents/Poo/casino/Model/Juego.h
  /Users/emanuelumana/Documents/Poo/casino/Model/Jugador.h
 CMakeFiles/casino.dir/Model/Juego.cpp.o

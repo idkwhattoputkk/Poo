@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/emanuelumana/Documents/Poo/casino/Controller/Controller.cpp
-Controller.h
-/Users/emanuelumana/Documents/Poo/casino/Controller/Controller.h
-../Model/Mayor13.h
-/Users/emanuelumana/Documents/Poo/casino/Model/Mayor13.h
-../Model/DosColores.h
-/Users/emanuelumana/Documents/Poo/casino/Model/DosColores.h
-
 /Users/emanuelumana/Documents/Poo/casino/Controller/Controller.h
 ../Model/Jugador.h
 /Users/emanuelumana/Documents/Poo/casino/Model/Jugador.h
@@ -38,14 +30,6 @@ map
 Juego.h
 /Users/emanuelumana/Documents/Poo/casino/Model/Juego.h
 
-/Users/emanuelumana/Documents/Poo/casino/Model/DosColores.h
-Juego.h
-/Users/emanuelumana/Documents/Poo/casino/Model/Juego.h
-cstdlib
--
-ctime
--
-
 /Users/emanuelumana/Documents/Poo/casino/Model/Juego.h
 Jugador.h
 /Users/emanuelumana/Documents/Poo/casino/Model/Jugador.h
@@ -56,15 +40,11 @@ iostream
 string
 -
 
-/Users/emanuelumana/Documents/Poo/casino/Model/Mayor13.cpp
-Mayor13.h
-/Users/emanuelumana/Documents/Poo/casino/Model/Mayor13.h
+/Users/emanuelumana/Documents/Poo/casino/View/View.cpp
+View.h
+/Users/emanuelumana/Documents/Poo/casino/View/View.h
 
-/Users/emanuelumana/Documents/Poo/casino/Model/Mayor13.h
-Juego.h
-/Users/emanuelumana/Documents/Poo/casino/Model/Juego.h
-cstdlib
--
-ctime
--
+/Users/emanuelumana/Documents/Poo/casino/View/View.h
+../Controller/Controller.h
+/Users/emanuelumana/Documents/Poo/casino/Controller/Controller.h
 

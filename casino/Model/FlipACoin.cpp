@@ -8,7 +8,7 @@
 float FlipACoin::calcularResultado(float gonzosApostar) {
     float resultado;
     if(numeroJugador  == numeroCasino){
-        resultado = gonzosApostar * 1.6
+        resultado = gonzosApostar * 1.6;
     }else{
         resultado = 0;
     }

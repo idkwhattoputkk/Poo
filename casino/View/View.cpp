@@ -127,26 +127,40 @@ void View::verPrincipal()
 }
 
 void View::mostrarJugador() {
-    long idJugador;
-    cout  << "Id del jugador a mostrar\n";
-    cin >> idJugador;
-    controller.verInfoJugador(idJugador);
+    try{
+        long idJugador;
+        cout  << "Id del jugador a mostrar\n";
+        cin >> idJugador;
+        controller.verInfoJugador(idJugador);
+    }catch (std::domain_error ex){
+        cout << ex.what();
+    }
+
 }
 void View::recargarGonzos() {
-    long idJugador;
-    cout << "Id del jugador para realizar la recarga" << endl;
-    cin >> idJugador;
-    controller.recargarGonzos(idJugador);
+    try{
+        long idJugador;
+        cout << "Id del jugador para realizar la recarga" << endl;
+        cin >> idJugador;
+        controller.recargarGonzos(idJugador);
+    } catch (std::domain_error ex) {
+        cout << ex.what();
+    }
+
 }
 void View::retirarJugador() {
-    long idJugador;
-    int opcion;
-    cout  << "Id del jugador a retirar\n";
-    cin >> idJugador;
-    cout << "Jugador a eliminar" << std::endl;
-    controller.verInfoJugador(idJugador);
-    controller.retirarJugador(idJugador);
+    try {
+        long idJugador;
+        int opcion;
+        cout  << "Id del jugador a retirar\n";
+        cin >> idJugador;
+        cout << "Jugador a eliminar" << std::endl;
+        controller.verInfoJugador(idJugador);
+        controller.retirarJugador(idJugador);
+    }catch (std::domain_error ex){
+        cout << ex.what();
+    }
+
 
     }
-}
 
