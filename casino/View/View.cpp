@@ -65,7 +65,7 @@ void View:: jugarView(long idJugador) {
                 cin >> idJuego;
             }while(idJuego != 1 && idJuego != 2);
             bool  resultado = controller.jugar(idJuego, idJugador, cantGonzos);
-            cout << "Apostaste: " << cantGonzos <<"gonzos \n";
+            cout << "Apostaste: " << cantGonzos <<" gonzos \n";
             if(resultado == true){
                 cout << "Ganaste\n";
             }else{
@@ -73,7 +73,7 @@ void View:: jugarView(long idJugador) {
             }
             cout << "Tu info actualizada es la siguiente \n";
             controller.verInfoJugador(idJugador);
-            cout << "Deseas continuar? 1. si, 0. no \n";
+            cout << "Deseas continuar? 1. si, 0. no " << endl;
             cin >> opcion;
             if (!controller.verPuedeContinuar(idJugador)){
                 cout << "Tu saldo es 0. Por favor compra mas gonzos para seguir jugando\n";

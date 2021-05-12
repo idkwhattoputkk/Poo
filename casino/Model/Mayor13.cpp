@@ -14,7 +14,7 @@ float Mayor13::jugar(float gonzosApostar) {
     numeroCasino = 1+rand()%14;// numeros de 1 a 13
 
     cout << "Tu numero aleatorio es: "<< numeroJugador <<"\n";
-    cout << "Deseas continuar? 1.si, 2. no";
+    cout << "Deseas continuar? 1.no, 2. si\n";
     cin >> opcion;
     if(opcion == 1){
         gonzosResulado  = gonzosApostar  * 0.5;
@@ -30,7 +30,7 @@ float Mayor13::calcularResultado(float gonzosApostar) {
     if(numeroJugador <= numeroCasino){
         resultado = 0;
     }else{
-        resultado = gonzosApostar * 2;
+        resultado = (gonzosApostar * 2);
     }
     return resultado;
 }

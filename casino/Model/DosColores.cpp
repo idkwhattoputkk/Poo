@@ -22,11 +22,11 @@ float DosColores::calcularResultado(float gonzosApostar) {
     float resultado;
     // Si coincide tanto el valor del dado como el color, el usuario ganará 4 veces lo apostado
     if(colorJugador == colorCasino && numeroJugador == numeroCasino){
-        resultado = gonzosApostar * 4;
+        resultado = (gonzosApostar * 4);
     }
     // coincide sólo con el valor del dado ganará 0.5 veces lo apostado
     else if( numeroJugador == numeroCasino && colorCasino != colorJugador){
-        resultado = gonzosApostar * 0.5;
+        resultado = (gonzosApostar * 0.5);
     }
     // no gana ni pierde.
     else if(numeroJugador != numeroCasino && colorJugador == colorCasino){

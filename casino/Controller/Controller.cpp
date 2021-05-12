@@ -44,10 +44,10 @@ bool Controller::jugar(int idJuego, long idJugador, float gonzosApostar) {
     Juego * pJuegoAJugar = casino.consultarJuegos().at(idJuego-1);
 
     // Consutlta al jugador, consulta los gonzos iniciales, juega y obtiene el resultado
-    verInfoJugador(idJugador);
+    Jugador *pJugador = casino.consultarJugador(idJugador);
+    pJugador->actualizarGonzos(-gonzosApostar);
     float resultado =  pJuegoAJugar->jugar(gonzosApostar);
     // Actualiza el saldo del jugador con el resultado
-    Jugador *pJugador = casino.consultarJugador(idJugador);
     pJugador->actualizarGonzos(resultado);
 
     // Actualiza la cantidad de juegos jugados
