@@ -22,9 +22,11 @@ FlipACoin::~FlipACoin() {
 float FlipACoin::jugar(float gonzosApostar) {
     srand(time(NULL));
     float resultado;
-    numeroCasino = 1+rand()%14;
-    cout << "Escoge que lado caera la moneda: 1. cara, 2 sello. " << endl;
+    numeroCasino = 1+rand()%2;
+    cout << "Escoge que lado caera la moneda: 0. cara, 1 sello. " << endl;
     cin >> numeroJugador;
     resultado = calcularResultado(gonzosApostar);
+    cout << "La moneda cayo en: " << numeroCasino <<endl ;
+    cout << "Tu numero: " << numeroCasino <<endl ;
     return resultado;
 }
