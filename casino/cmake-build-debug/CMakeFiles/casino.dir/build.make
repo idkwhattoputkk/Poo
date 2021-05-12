@@ -62,10 +62,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/emanuelumana/Downloads/casino
+CMAKE_SOURCE_DIR = /Users/emanuelumana/Documents/Poo/casino
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/emanuelumana/Downloads/casino/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/emanuelumana/Documents/Poo/casino/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/casino.dir/depend.make
@@ -78,107 +78,107 @@ include CMakeFiles/casino.dir/flags.make
 
 CMakeFiles/casino.dir/main.cpp.o: CMakeFiles/casino.dir/flags.make
 CMakeFiles/casino.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/emanuelumana/Downloads/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/casino.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casino.dir/main.cpp.o -c /Users/emanuelumana/Downloads/casino/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/emanuelumana/Documents/Poo/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/casino.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casino.dir/main.cpp.o -c /Users/emanuelumana/Documents/Poo/casino/main.cpp
 
 CMakeFiles/casino.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/casino.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emanuelumana/Downloads/casino/main.cpp > CMakeFiles/casino.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emanuelumana/Documents/Poo/casino/main.cpp > CMakeFiles/casino.dir/main.cpp.i
 
 CMakeFiles/casino.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/casino.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emanuelumana/Downloads/casino/main.cpp -o CMakeFiles/casino.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emanuelumana/Documents/Poo/casino/main.cpp -o CMakeFiles/casino.dir/main.cpp.s
 
 CMakeFiles/casino.dir/Model/Jugador.cpp.o: CMakeFiles/casino.dir/flags.make
 CMakeFiles/casino.dir/Model/Jugador.cpp.o: ../Model/Jugador.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/emanuelumana/Downloads/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/casino.dir/Model/Jugador.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casino.dir/Model/Jugador.cpp.o -c /Users/emanuelumana/Downloads/casino/Model/Jugador.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/emanuelumana/Documents/Poo/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/casino.dir/Model/Jugador.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casino.dir/Model/Jugador.cpp.o -c /Users/emanuelumana/Documents/Poo/casino/Model/Jugador.cpp
 
 CMakeFiles/casino.dir/Model/Jugador.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/casino.dir/Model/Jugador.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emanuelumana/Downloads/casino/Model/Jugador.cpp > CMakeFiles/casino.dir/Model/Jugador.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emanuelumana/Documents/Poo/casino/Model/Jugador.cpp > CMakeFiles/casino.dir/Model/Jugador.cpp.i
 
 CMakeFiles/casino.dir/Model/Jugador.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/casino.dir/Model/Jugador.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emanuelumana/Downloads/casino/Model/Jugador.cpp -o CMakeFiles/casino.dir/Model/Jugador.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emanuelumana/Documents/Poo/casino/Model/Jugador.cpp -o CMakeFiles/casino.dir/Model/Jugador.cpp.s
 
 CMakeFiles/casino.dir/Controller/Controller.cpp.o: CMakeFiles/casino.dir/flags.make
 CMakeFiles/casino.dir/Controller/Controller.cpp.o: ../Controller/Controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/emanuelumana/Downloads/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/casino.dir/Controller/Controller.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casino.dir/Controller/Controller.cpp.o -c /Users/emanuelumana/Downloads/casino/Controller/Controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/emanuelumana/Documents/Poo/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/casino.dir/Controller/Controller.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casino.dir/Controller/Controller.cpp.o -c /Users/emanuelumana/Documents/Poo/casino/Controller/Controller.cpp
 
 CMakeFiles/casino.dir/Controller/Controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/casino.dir/Controller/Controller.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emanuelumana/Downloads/casino/Controller/Controller.cpp > CMakeFiles/casino.dir/Controller/Controller.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emanuelumana/Documents/Poo/casino/Controller/Controller.cpp > CMakeFiles/casino.dir/Controller/Controller.cpp.i
 
 CMakeFiles/casino.dir/Controller/Controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/casino.dir/Controller/Controller.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emanuelumana/Downloads/casino/Controller/Controller.cpp -o CMakeFiles/casino.dir/Controller/Controller.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emanuelumana/Documents/Poo/casino/Controller/Controller.cpp -o CMakeFiles/casino.dir/Controller/Controller.cpp.s
 
 CMakeFiles/casino.dir/View/View.cpp.o: CMakeFiles/casino.dir/flags.make
 CMakeFiles/casino.dir/View/View.cpp.o: ../View/View.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/emanuelumana/Downloads/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/casino.dir/View/View.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casino.dir/View/View.cpp.o -c /Users/emanuelumana/Downloads/casino/View/View.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/emanuelumana/Documents/Poo/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/casino.dir/View/View.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casino.dir/View/View.cpp.o -c /Users/emanuelumana/Documents/Poo/casino/View/View.cpp
 
 CMakeFiles/casino.dir/View/View.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/casino.dir/View/View.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emanuelumana/Downloads/casino/View/View.cpp > CMakeFiles/casino.dir/View/View.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emanuelumana/Documents/Poo/casino/View/View.cpp > CMakeFiles/casino.dir/View/View.cpp.i
 
 CMakeFiles/casino.dir/View/View.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/casino.dir/View/View.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emanuelumana/Downloads/casino/View/View.cpp -o CMakeFiles/casino.dir/View/View.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emanuelumana/Documents/Poo/casino/View/View.cpp -o CMakeFiles/casino.dir/View/View.cpp.s
 
 CMakeFiles/casino.dir/Model/Casino.cpp.o: CMakeFiles/casino.dir/flags.make
 CMakeFiles/casino.dir/Model/Casino.cpp.o: ../Model/Casino.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/emanuelumana/Downloads/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/casino.dir/Model/Casino.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casino.dir/Model/Casino.cpp.o -c /Users/emanuelumana/Downloads/casino/Model/Casino.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/emanuelumana/Documents/Poo/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/casino.dir/Model/Casino.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casino.dir/Model/Casino.cpp.o -c /Users/emanuelumana/Documents/Poo/casino/Model/Casino.cpp
 
 CMakeFiles/casino.dir/Model/Casino.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/casino.dir/Model/Casino.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emanuelumana/Downloads/casino/Model/Casino.cpp > CMakeFiles/casino.dir/Model/Casino.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emanuelumana/Documents/Poo/casino/Model/Casino.cpp > CMakeFiles/casino.dir/Model/Casino.cpp.i
 
 CMakeFiles/casino.dir/Model/Casino.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/casino.dir/Model/Casino.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emanuelumana/Downloads/casino/Model/Casino.cpp -o CMakeFiles/casino.dir/Model/Casino.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emanuelumana/Documents/Poo/casino/Model/Casino.cpp -o CMakeFiles/casino.dir/Model/Casino.cpp.s
 
 CMakeFiles/casino.dir/Model/Juego.cpp.o: CMakeFiles/casino.dir/flags.make
 CMakeFiles/casino.dir/Model/Juego.cpp.o: ../Model/Juego.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/emanuelumana/Downloads/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/casino.dir/Model/Juego.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casino.dir/Model/Juego.cpp.o -c /Users/emanuelumana/Downloads/casino/Model/Juego.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/emanuelumana/Documents/Poo/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/casino.dir/Model/Juego.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casino.dir/Model/Juego.cpp.o -c /Users/emanuelumana/Documents/Poo/casino/Model/Juego.cpp
 
 CMakeFiles/casino.dir/Model/Juego.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/casino.dir/Model/Juego.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emanuelumana/Downloads/casino/Model/Juego.cpp > CMakeFiles/casino.dir/Model/Juego.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emanuelumana/Documents/Poo/casino/Model/Juego.cpp > CMakeFiles/casino.dir/Model/Juego.cpp.i
 
 CMakeFiles/casino.dir/Model/Juego.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/casino.dir/Model/Juego.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emanuelumana/Downloads/casino/Model/Juego.cpp -o CMakeFiles/casino.dir/Model/Juego.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emanuelumana/Documents/Poo/casino/Model/Juego.cpp -o CMakeFiles/casino.dir/Model/Juego.cpp.s
 
 CMakeFiles/casino.dir/Model/Mayor13.cpp.o: CMakeFiles/casino.dir/flags.make
 CMakeFiles/casino.dir/Model/Mayor13.cpp.o: ../Model/Mayor13.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/emanuelumana/Downloads/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/casino.dir/Model/Mayor13.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casino.dir/Model/Mayor13.cpp.o -c /Users/emanuelumana/Downloads/casino/Model/Mayor13.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/emanuelumana/Documents/Poo/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/casino.dir/Model/Mayor13.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casino.dir/Model/Mayor13.cpp.o -c /Users/emanuelumana/Documents/Poo/casino/Model/Mayor13.cpp
 
 CMakeFiles/casino.dir/Model/Mayor13.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/casino.dir/Model/Mayor13.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emanuelumana/Downloads/casino/Model/Mayor13.cpp > CMakeFiles/casino.dir/Model/Mayor13.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emanuelumana/Documents/Poo/casino/Model/Mayor13.cpp > CMakeFiles/casino.dir/Model/Mayor13.cpp.i
 
 CMakeFiles/casino.dir/Model/Mayor13.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/casino.dir/Model/Mayor13.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emanuelumana/Downloads/casino/Model/Mayor13.cpp -o CMakeFiles/casino.dir/Model/Mayor13.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emanuelumana/Documents/Poo/casino/Model/Mayor13.cpp -o CMakeFiles/casino.dir/Model/Mayor13.cpp.s
 
 CMakeFiles/casino.dir/Model/DosColores.cpp.o: CMakeFiles/casino.dir/flags.make
 CMakeFiles/casino.dir/Model/DosColores.cpp.o: ../Model/DosColores.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/emanuelumana/Downloads/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/casino.dir/Model/DosColores.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casino.dir/Model/DosColores.cpp.o -c /Users/emanuelumana/Downloads/casino/Model/DosColores.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/emanuelumana/Documents/Poo/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/casino.dir/Model/DosColores.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/casino.dir/Model/DosColores.cpp.o -c /Users/emanuelumana/Documents/Poo/casino/Model/DosColores.cpp
 
 CMakeFiles/casino.dir/Model/DosColores.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/casino.dir/Model/DosColores.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emanuelumana/Downloads/casino/Model/DosColores.cpp > CMakeFiles/casino.dir/Model/DosColores.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emanuelumana/Documents/Poo/casino/Model/DosColores.cpp > CMakeFiles/casino.dir/Model/DosColores.cpp.i
 
 CMakeFiles/casino.dir/Model/DosColores.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/casino.dir/Model/DosColores.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emanuelumana/Downloads/casino/Model/DosColores.cpp -o CMakeFiles/casino.dir/Model/DosColores.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emanuelumana/Documents/Poo/casino/Model/DosColores.cpp -o CMakeFiles/casino.dir/Model/DosColores.cpp.s
 
 # Object files for target casino
 casino_OBJECTS = \
@@ -204,7 +204,7 @@ casino: CMakeFiles/casino.dir/Model/Mayor13.cpp.o
 casino: CMakeFiles/casino.dir/Model/DosColores.cpp.o
 casino: CMakeFiles/casino.dir/build.make
 casino: CMakeFiles/casino.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/emanuelumana/Downloads/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable casino"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/emanuelumana/Documents/Poo/casino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable casino"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/casino.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -217,6 +217,6 @@ CMakeFiles/casino.dir/clean:
 .PHONY : CMakeFiles/casino.dir/clean
 
 CMakeFiles/casino.dir/depend:
-	cd /Users/emanuelumana/Downloads/casino/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/emanuelumana/Downloads/casino /Users/emanuelumana/Downloads/casino /Users/emanuelumana/Downloads/casino/cmake-build-debug /Users/emanuelumana/Downloads/casino/cmake-build-debug /Users/emanuelumana/Downloads/casino/cmake-build-debug/CMakeFiles/casino.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/emanuelumana/Documents/Poo/casino/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/emanuelumana/Documents/Poo/casino /Users/emanuelumana/Documents/Poo/casino /Users/emanuelumana/Documents/Poo/casino/cmake-build-debug /Users/emanuelumana/Documents/Poo/casino/cmake-build-debug /Users/emanuelumana/Documents/Poo/casino/cmake-build-debug/CMakeFiles/casino.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/casino.dir/depend
 

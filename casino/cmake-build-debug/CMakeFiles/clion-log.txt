@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/emanuelumana/Downloads/casino
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/emanuelumana/Documents/Poo/casino
 -- The C compiler identification is AppleClang 12.0.5.12050022
 -- The CXX compiler identification is AppleClang 12.0.5.12050022
 -- Detecting C compiler ABI info
@@ -13,4 +13,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/emanuelumana/Downloads/casino/cmake-build-debug
+-- Build files have been written to: /Users/emanuelumana/Documents/Poo/casino/cmake-build-debug

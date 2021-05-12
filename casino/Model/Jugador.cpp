@@ -22,9 +22,10 @@ Jugador::~Jugador()
 }
 
 void Jugador::mostrarInfo() {
-    cout << "Nombre: " << this->nombre;
-    cout << "Id: " << this->id;
-    cout << "Cantidad de gonzos: " << this->cantGonzos;
+    //Muestra el nombre, la cantidad de gonzos  y la cantidad de juegos jugados
+    cout << "Nombre: " << this->nombre << endl;
+    cout << "Cantidad gonzos: " << this->cantGonzos << endl;
+    cout << "Cantidad de juegos jugados: " << this->cantJuegos << endl;
 }
 
 void Jugador::aumentarJuegos() {

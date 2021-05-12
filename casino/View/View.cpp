@@ -57,26 +57,26 @@ void View:: jugarView(long idJugador) {
     do{
         try {
             do {
-                cout << "Cuantos gonzos desea apostar \n";
+                cout << "Cuantos gonzos desea apostar: \n";
                 cin >> cantGonzos;
             } while (cantGonzos <= 0);
             do{
-                cout << "Seleccione el juego que quieres jugar: 1. el mayor 13, Dos colores 2.\n";
+                cout << "Seleccione el juego que quieres jugar: 1. el mayor 13, Dos colores 2. \n";
                 cin >> idJuego;
             }while(idJuego != 1 && idJuego != 2);
             bool  resultado = controller.jugar(idJuego, idJugador, cantGonzos);
-            cout << "Apostaste: " << cantGonzos <<"gonzos\n";
+            cout << "Apostaste: " << cantGonzos <<"gonzos \n";
             if(resultado == true){
                 cout << "Ganaste\n";
             }else{
                 cout << "Perdiste\n";
             }
-            cout << "Tu info actualizada es la siguiente";
+            cout << "Tu info actualizada es la siguiente \n";
             controller.verInfoJugador(idJugador);
-            cout << "Deseas continuar? 1. si, 0. no";
+            cout << "Deseas continuar? 1. si, 0. no \n";
             cin >> opcion;
             if (!controller.verPuedeContinuar(idJugador)){
-                cout << "Tu saldo es 0. Por favor compra mas gonzos para seguir jugando";
+                cout << "Tu saldo es 0. Por favor compra mas gonzos para seguir jugando\n";
                 opcion = 0;
             }
         } catch (std::domain_error ex){

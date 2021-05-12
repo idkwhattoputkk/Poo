@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/emanuelumana/Documents/Poo/casino/Model/Jugador.cpp
+Jugador.h
+/Users/emanuelumana/Documents/Poo/casino/Model/Jugador.h
+
+/Users/emanuelumana/Documents/Poo/casino/Model/Jugador.h
+iostream
+-
+string
+-
+

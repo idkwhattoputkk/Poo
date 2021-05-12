@@ -19,13 +19,18 @@ void Casino::agregarJuego(Juego * juego) {
 
 void Casino::agregarJugador(Jugador *pJugador) {
     // Se agrega el jugador al mapa de jugadores del casino
-   cout << "Por implementar \n";
+    jugadoresMap[pJugador->getId()] = pJugador;
 }
 
 bool Casino::verExisteJugador(long id) {
-
+    bool flag;
     // Si el jugador se encuentra en el mapa retorna true, de lo contrario retorna false
-    cout << "Por implementar \n";
+    if(jugadoresMap[id] == nullptr ){
+         flag = false;
+    }else{
+        flag = true;
+    }
+    return flag;
 }
 
 Jugador *Casino::consultarJugador(long id) {
@@ -33,10 +38,10 @@ Jugador *Casino::consultarJugador(long id) {
 }
 
 double Casino::convertirPesosAGonzos(double dinero) {
-
+    double gonzos;
     // Cada 10 mil pesos equivalen a 100 Gonzos
-    cout << "Por implementar \n";
-    return 0;
+    gonzos = (100  * dinero)/(10000);
+    return gonzos;
 }
 
 vector<Juego *> &Casino::consultarJuegos() {
@@ -49,9 +54,9 @@ void Casino::retirarJugador(long id) {
 
 
 double Casino::convertirGonzosPesos(float gonzos) {
-    // Pendiente por implementar
-    cout << "Fase dos, por hacer \n";
-    return 0;
+    double pesos;
+    pesos = (10000  * gonzos)/(100);
+    return pesos;
 }
 
 Casino::~Casino() {

@@ -8,6 +8,7 @@ float Mayor13::jugar(float gonzosApostar) {
     int opcion;
     float gonzosResulado;
     srand(time(NULL));
+    cout << "se generara el numero aleatorio." <<  endl;
     // para calcular numero aleatorio variable = limite_inferior + rand() % (limite_superior +1 - limite_inferior) ;
     numeroJugador = 1+rand()%14;// numeros de 1 a 13
     numeroCasino = 1+rand()%14;// numeros de 1 a 13
